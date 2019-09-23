@@ -45,7 +45,7 @@ class NextLaunch extends React.Component{
         else{
             return(
                 <div className="ui centered grid">
-                    <div className="eight wide column" style={{textAlign: "left"}}>
+                    <div className="eight wide column" id="launchColumn" style={{textAlign: "left"}}>
                         <h1>{nextLaunch.mission_name}</h1>
                         <h3>Launching on {month}/{day}/{year} at {hours}</h3>
                         <div>

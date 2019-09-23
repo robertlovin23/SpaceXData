@@ -20,7 +20,7 @@ class RocketPage extends React.Component{
     render() {
         if(!this.state.rockets.length) {
             return(
-            <div>
+            <div className="noTopPad" style={{paddingTop: "0rem 0"}}>
                 <div className="padArea"style={{paddingTop:'100px', width: '100%!important'}}></div>
                 <div style={{height: "100%!important"}}>
                   <div style={{height: "100px", marginTop: "50px", marginBottom: "50px"}} className="ui active centered inline text loader">
@@ -33,7 +33,7 @@ class RocketPage extends React.Component{
         else{
             return(
             <div>
-                <div className="rocketArea"style={{paddingTop:'100px', width: '100%!important'}}>
+                <div className="rocketArea"style={{paddingTop:'100px',marginTop: "-1rem", width: '100%!important'}}>
                 </div>
                 <RocketList rockets={this.state.rockets}/>
             </div>

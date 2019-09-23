@@ -36,5 +36,11 @@
     .searchArea{
         padding-top: 25px!important;
     }
+    #mainColumn{
+        width: 80%!important;
+    }
+    #launchColumn{
+        width: 90%!important;
+    }
 }
 

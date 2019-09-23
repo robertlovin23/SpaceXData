@@ -33,7 +33,7 @@ class LaunchpadPage extends React.Component{
         else{
             return(
                 <div>
-                    <div className="padArea"style={{paddingTop:'100px', width: '100%!important'}}>
+                    <div className="padArea" style={{paddingTop:'100px',marginTop: "-1rem", width: '100%!important'}}>
                     </div>
                     <PadList pads={this.state.pads}/>
                 </div>

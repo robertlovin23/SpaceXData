@@ -54,7 +54,7 @@ class SearchBar extends React.Component{
     }
     render() {
         return(
-        <div className="searchArea searchBar" style={{paddingTop:'100px', width: '100%!important'}}>
+        <div className="searchArea searchBar" style={{paddingTop:'100px',marginTop: "-1rem", width: '100%!important'}}>
             <h1 style={{textAlign: 'center', color: 'white'}}>Space X Launches</h1>
             <div className="ui container segment">
                 <form className="ui form">

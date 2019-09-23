@@ -22,8 +22,9 @@ class MainPage extends React.Component{
     render() {
         const stats = this.state.infos
             return(
+            <div>
                 <div className="mainArea ui centered grid" style={{width: '100%!important', paddingTop:"100px"}}>
-                    <div className="six wide column" style={{textAlign: "left", alignContent: "center", display: "inlineblock"}}>
+                    <div className="six wide column" id="mainColumn" style={{textAlign: "left", alignContent: "center", display: "inlineblock"}}>
                         <h1 style={{textAlign: 'center',color:'white'}}>Welcome to Space X!</h1>
                         <p style={{textAlign: 'center', color:"white"}}>{stats.summary}</p>
                     </div>
@@ -32,6 +33,7 @@ class MainPage extends React.Component{
                             <NextLaunch />
                     </div>
                 </div>
+            </div>
             )
         }
     }

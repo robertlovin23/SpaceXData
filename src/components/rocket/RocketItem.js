@@ -2,8 +2,8 @@ import React from 'react'
 
 const RocketItem = ({ rocket }) => {
     return(
-        <div key={rocket.id} className="column" style={{display: 'inline-block', weight: '80%', paddingBottom: "20px"}}>
-            <div className="ui card">
+        <div key={rocket.id} className="column" id="rocketItem" style={{display: 'inline-block', weight: '80%', paddingBottom: "20px"}}>
+            <div className="ui card" >
             <div className="ui content">
                 <div className="header">
                     {rocket.rocket_name}

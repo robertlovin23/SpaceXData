@@ -1,8 +1,9 @@
 import React from 'react'
+import "../../App.css"
 
 const PadItem = ({ pad }) => {
     return(
-         <div key={pad.id} className="column" style={{marginBottom: "20px"}}>
+         <div key={pad.id} className="column" id="padItem" style={{marginBottom: "20px"}}>
             <div className="ui card">
                 <div className="ui content">
                     <div className="header">{pad.location.name}</div>

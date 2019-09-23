@@ -20,4 +20,21 @@
     background-image: url('../src/imgs/spacexpic.jpg');
     height: 700px;
 }
+@media screen and (max-width: 450px){
+    #rocketItem{
+        width: 100%!important;
+        display:flex!important;
+        justify-content: center;
+    }
+    #padItem{
+        width: 100%!important;
+        display:flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 770px){
+    .searchArea{
+        padding-top: 25px!important;
+    }
+}
 

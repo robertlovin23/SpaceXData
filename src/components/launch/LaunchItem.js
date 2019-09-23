@@ -1,6 +1,7 @@
 import React from 'react'
 import {Button, Header, Modal} from 'semantic-ui-react'
 import ReactPlayer from 'react-player'
+import '../../App.css'
 
 const LaunchItem = ({ rocket }) => {
     return(

@@ -21,7 +21,7 @@ class LaunchpadPage extends React.Component{
         if(!this.state.pads.length) {
             return(
             <div>
-                <div className="padArea"style={{paddingTop:'100px', width: '100%!important'}}></div>
+                <div className="padArea"style={{paddingTop:'100px', marginTop:"-1rem", width: '100%!important'}}></div>
                 <div style={{height: "100%!important"}}>
                   <div style={{height: "100px", marginTop: "50px", marginBottom: "50px"}} className="ui active centered inline text loader">
                     Loading...

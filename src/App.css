@@ -20,6 +20,9 @@
     background-image: url('../src/imgs/spacexpic.jpg');
     height: 700px;
 }
+#launchItem{
+    margin-bottom: 10px!important;
+}
 @media screen and (max-width: 450px){
     #rocketItem{
         width: 100%!important;

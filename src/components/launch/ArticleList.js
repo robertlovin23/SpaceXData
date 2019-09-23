@@ -1,5 +1,6 @@
 import React from 'react'
 import LaunchItem from './LaunchItem'
+import '../../App.css'
 
 const RocketList = ({ rockets }) => {
     const dataList = rockets.map((rocket, index) => {
@@ -8,7 +9,7 @@ const RocketList = ({ rockets }) => {
         )
     })
     return (
-        <div className="ui divided items container">{dataList}</div>
+        <div className="ui divided items container" id="launchItem">{dataList}</div>
     )
 }
 

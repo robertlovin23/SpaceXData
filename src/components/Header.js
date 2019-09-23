@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
         return(
-            <div className="ui secondary pointing stackable menu" style={{color: 'white', backgroundColor: 'gray'}}>
+            <div className="ui inverted stackable menu" style={{color: 'white'}}>
                 <Link to="/" className="item">
                     <h3>SpaceX Data</h3>
                 </Link>

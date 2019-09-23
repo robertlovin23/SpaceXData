@@ -9,7 +9,7 @@ const RocketList = ({ rockets }) => {
         })   
         return(
             <div className="ui container">
-                <div className="ui relaxed grid">
+                <div className="ui relaxed grid" style={{marginBottom: "0rem", marginRight: "0rem"}}>
                     <h1 style={{textAlign: 'center', marginTop:'30px'}}>Rockets</h1>
                     <div className="doubling four column row">
                         {rocketList}

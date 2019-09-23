@@ -9,7 +9,7 @@ const PadList = ({pads}) => {
     })
     return(
         <div className="ui container">
-            <div className="ui relaxed grid">
+            <div className="ui relaxed grid" style={{marginBottom: "0rem"}}>
                 <h1 style={{textAlign: 'center', marginTop:'30px'}}>Launch Pad's</h1>
                 <div className="doubling four column row">
                     {padList}

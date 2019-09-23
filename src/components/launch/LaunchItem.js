@@ -39,8 +39,10 @@ const LaunchItem = ({ rocket }) => {
                         </div>                  
                     </div>
                     <div style={{marginTop:'5px'}}>
-                        <Modal trigger={<Button className="ui primary button">Watch Video</Button>}>
-                            <Modal.Header>Watch Video</Modal.Header>
+                        <Modal trigger={<Button className="ui primary button">Watch Video</Button>} closeIcon>
+                            <Modal.Header>
+                                Watch Video
+                            </Modal.Header>
                             <Modal.Content>
                                 <ReactPlayer width="100%!important" height="500px" url={rocket.links.video_link} title={rocket.rocket.rocket_name} allowFullScreen></ReactPlayer>
                             </Modal.Content>

@@ -18,7 +18,7 @@ class NextLaunch extends React.Component{
     render() {
         const nextLaunch = this.state.nextLaunch;
         const date = new Date(nextLaunch.launch_date_local)
-        const day = date.getDate()+ 1;
+        const day = date.getDate();
         const month = date.getMonth() + 1;
         const year = date.getFullYear();
         const hours = date.toLocaleTimeString('en-US')
